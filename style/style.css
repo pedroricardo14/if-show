@@ -1,1 +1,89 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+header img{
+    height: 80px;
+    padding: 0 auto;
+    margin-left: 10px;
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+header li{
+    padding: 10px;
+    list-style: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: green;
+    transition: 0.4s all;
+}
+body{
+    background-color: #00951b;
+    color: white;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+main{
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+aside{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 20vh;
+    padding: 25px;
+}
+aside h1{
+    line-height: 25px;
+    font-size: 35px;
+}
+aside button{
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 60px;
+    border: none;
+    border-radius: 1000px;
+    background-color: #009841;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: inset 0 0 20px;
+}
+article{
+    display: flex;
+    float: right;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+article img{
+    height: 420px;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#redirect-agd:hover{
+    background-color: transparent;
+    color: #65ff00;
+    transform: scale(1.0) rotate(360deg);
+    box-shadow: 0 0 60px black;
+    cursor: pointer;
+    boder: 2px solid #50ff00;
+}
