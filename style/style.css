@@ -19,6 +19,7 @@ header ul{
 }
 header li{
     padding: 10px;
+    display: inline-block;
     list-style: none;
 }
 header a{
@@ -31,6 +32,7 @@ header a:hover{
 }
 body{
     background-color: #00951b;
+    max-width: 1200px;
     color: white;
     margin: 0;
     font-family: "Noto Sans", sans-serif;
@@ -38,6 +40,7 @@ body{
 main{
     padding: 10px;
     display: flex;
+    flex-direction: column;
     margin-top: 10px;
 }
 aside{
@@ -87,4 +90,13 @@ article img{
     box-shadow: 0 0 60px black;
     cursor: pointer;
     boder: 2px solid #50ff00;
+}
+.text{
+    margin: 20px;
+}
+.text h1{
+    text-align: center;
+}
+.text h2{
+    text-align: center;
 }
