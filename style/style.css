@@ -93,6 +93,7 @@ article img{
 }
 .text{
     margin: 20px;
+    display: block;
 }
 .text h1{
     text-align: center;
