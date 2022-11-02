@@ -52,6 +52,7 @@ aside h1{
     font-size: 35px;
 }
 aside button{
+    color: white;
     padding: 25px;
     text-align: center;
     font-weight: bold;
@@ -71,7 +72,7 @@ article{
     margin-top: 30px;
 }
 article img{
-    height: 420px;
+    height: 400px;
     margin-right: 20px;
 }
 .container{
