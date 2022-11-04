@@ -2,19 +2,22 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-   <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>IF Show - Página Inicial</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./style/mediaifshow.css">
 </head>
 <body>
     <header>
         <img src="./img/ifshow.png" alt="">
-        <nav>
-            <ul>
+        <nav id="nav">
+            <button id="btn-mobile">Menu
+            <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" rol="menu">
                 <li><a href="./index.html">Página Inicial</a></li>
                 
-                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="#">Agendamento</a></li>
                 <li><a href="#">Suporte</a></li>
                 
                 <li id="conta"><a href="#">Acesse sua conta</a></li>
@@ -51,11 +54,29 @@
             <br>
             <p>Agende suas apresentações clicando na opção "Agendamento" no menu da página, ou clicando no botão "Agendar minha apresentação" logo acima, ou então <a href="#">Clique aqui</a> para agendar sua apresentação.</p>
             <p>Em ambos os campos você será redirecionado para a página de login, onde você deverá informar seu número de matrícula no IFRN como usuário e inserindo sua senha do Sistema Único de Administração Pública (SUAP) no campo "Senha". Após informar tais dados, e dar prosseguimento, você irá para o formulário oficial de agendamento.</p>
-            
+            <br>
+            <h2>Quem são os responsáveis pelo desenvolvimento do IFShow?</h2>
+            <br>
+            <p>Os discentes responsáveis pelo projeto são:</p>
+            <ul>
+                <li>Pedro Ricardo</li>
+                <li>Davi Gledson</li>
+                <li>Maeldson Cavalcante</li>
+                <li>Nicassio Monteiro</li>
+            </ul>
+            <p>A docente orientadora do projeto é: </p>
+            <ul>
+                <li>Carla Katarina</li>
+            </ul>
         </div>
-    </main>
-    <footer>
         
+    </main>
+    <div class="copyright">
+    <footer id="copyright">
+        <h2>Direitos:</h2>
+        <p>Copyright - Todos os direitos reservados | Desenvolvimento por Pedro Ricardo e Davi Gledson</p>
     </footer>
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
