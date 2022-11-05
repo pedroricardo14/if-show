@@ -7,23 +7,28 @@
         position: absolute;
         width: 100%;
         top: 70px;
-        right: 0;
+        right: 0px;
         background: #e7e7e7;
-        height: 0;
+        height: 0px;
         z-index: 1000;
         transition: .6s;
         visibility: hidden;
         overflow-y: hidden;
     }
     #nav.active #menu{
-        height: calc(100vh-70px;);
+        height: 100vh;
         visibility: visible;
         overflow-y: auto;
+        background: #000000;
     }
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        border-bottom: 2px solid lightGray;
+    }
+    #menu li{
+        display: flex;
+        flex-direction: column;
     }
     #btn-mobile{
         display: flex;
@@ -35,18 +40,17 @@
         gap: .5rem;
     }
     #hamburguer{
-        border-top: 2px solid;
-        width: 20px;
-        
+        border-top: 2px solid white;
+        width: 20px;    
     }
     #hamburguer::after, #hamburguer::before{
         content: '';
         display: block;
         width: 20px;
         height: 2px;
-        background: currentColor;
+        background: white;
         margin-top: 5px;
-        transition: .3s;
+        transition: 0.3s;
         position: relative;
     }
     #nav.active #hamburguer{
