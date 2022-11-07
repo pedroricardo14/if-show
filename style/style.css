@@ -61,7 +61,10 @@ main{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+main ul li{
+    margin-left: 30px;
 }
 aside{
     float: left;
@@ -120,4 +123,11 @@ article img{
 }
 .text h2{
     text-align: center;
+}
+.copyright{
+    text-align: center;
+}
+#copyright{
+    background-color: black;
+    padding: 20px;
 }
