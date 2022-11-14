@@ -175,10 +175,93 @@ article img{
 
 /* Página de Suporte */
 
+.suporte h1{
+    line-height: 10px;
+}
+#form{
+    width: 100%;
+}
+
+
 label, input, textarea{
     width: 100%;
 }
 input{
     border: 2px solid #00ff2d;
     border-radius: 10px;
+    padding: 10px 2px 10px 2px;
+    background-color: black;
+    color: white;
+}
+textarea{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    border: 2px solid #00ff2d;
+    background-color: black;
+    color: white;
+}
+.send-message{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#contact{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 0 8px #00ff2d, 0 0 38px #7aff00;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 5px solid #00ff03;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: inset 0 0 32px #70ff15, 0 0 32px #7aff00;
+    position: relative;
+}
+#contact::before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #7aff00;
+    left: 0;
+    top: 120%;
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+}
+#contact::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2dbf20;
+    box-shadow: 0 0 1200px 1200px #65ff00;
+    z-index: -1;
+    opacity: 0;
+}
+#contact:hover::after, #contact:focus::after{
+    opacity: 1;
+    color: #0caf00;
+    box-shadow: 0 0 60px black;
+    cursor: pointer;
+    boder: 2px solid #50ff00;
+    transition: opacity 120ms linear;
+}
+#contact:hover::before, #contact:hover:before{
+    opacity: 1;
+}
+#contact:hover, #contact:focus{
+    color: black;
+    text-shadow: none;
 }
