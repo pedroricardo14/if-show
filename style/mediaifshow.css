@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media screen (min-width: 600px) and (max-width: 2200px) {
     #btn-mobile{
         display: block;
     }
@@ -116,25 +116,3 @@
        padding: 10px;
    }
 }
-
-@media (max-width: 2200px){
-    body{
-        margin: 0;
-    }
-    header{
-        width: 100%;
-    }
-    main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-
-
-
-
-
-
