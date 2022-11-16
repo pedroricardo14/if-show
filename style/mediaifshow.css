@@ -121,11 +121,14 @@
     body{
         margin: 0;
     }
-    *{
+    header{
+        width: 100%;
+    }
+    main{
         display: flex;
         align-items: center;
         justify-content: center;
-        
+    }
 
 
 
