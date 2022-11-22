@@ -1,0 +1,13 @@
+@media screen (min-width: 400px) and (max-width: 1200px){
+    header{
+        width: 100%;
+        right: 0;
+    }
+    main{
+        display: flex;
+        
+    }
+}
+
+
+
