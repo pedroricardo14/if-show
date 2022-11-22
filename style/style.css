@@ -265,3 +265,33 @@ textarea{
     color: black;
     text-shadow: none;
 }
+
+
+/* Perfil do usuário */
+
+#profile{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    text-align: ;
+}
+#profile img{
+    height: 300px;
+    width: 300px;
+}
+.info{
+    margin: 30px 0 0 30px;
+    border: 2px solid green;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: ;
+}
+.name, .registration, .course, .period, .acadmail, .personmail, .cpf, .agd-ext{
+    border: 2px solid #5bff15;
+    width: ;
+    padding: 0 10px 0 0;
+}
+
