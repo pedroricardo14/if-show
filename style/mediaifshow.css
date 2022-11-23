@@ -101,6 +101,7 @@
     }
    .container{
        margin-top: 40px;
+       display: flex;
    }
    .suporte{
        margin-top: 80px;
