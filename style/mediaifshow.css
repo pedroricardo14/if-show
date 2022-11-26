@@ -101,7 +101,6 @@
     }
    .container{
        margin-top: 40px;
-       display: block;
    }
    .suporte{
        margin-top: 80px;
@@ -115,5 +114,16 @@
    #copyright{
        background-color: black;
        padding: 10px;
+   }
+   /* media do perfil de usuário*/
+   
+   .usur{
+       margin: 0;
+   }
+   .profile{
+       margin: 0;
+   }
+   #navbar{
+       margin: 0;
    }
 }
