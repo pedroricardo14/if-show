@@ -131,7 +131,7 @@ article{
 }
 article img{
     height: 400px;
-    margin-right: 20px;
+    margin-right: 15vh;
 }
 .container{
     display: flex;
