@@ -280,7 +280,10 @@ textarea{
 
 /* Perfil do usuário */
 #profile{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .photo{
     display: flex;
@@ -301,6 +304,7 @@ h1{
 }
 .info{
     margin-top: 20px;
+    width: 80vh;
 }
 .name, .registration, .course, .period, .acadmail, .personmail, .cpf, .agd-ext, .agd-cancel{
     border: 2px solid #5bff15;
