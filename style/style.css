@@ -70,7 +70,7 @@ main ul li{
 }
 aside{
     float: left;
-    margin-left: 40px;
+    margin-left: 3vh;
     margin-top: 30px;
     width: 70vh;
     padding: 25px;
@@ -89,6 +89,7 @@ aside button{
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 14vh;
     margin-right: 60px;
     border: 5px solid #00ff03;
     border-radius: 10px;
