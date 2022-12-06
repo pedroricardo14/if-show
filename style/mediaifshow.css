@@ -131,4 +131,8 @@
    #navbar{
        margin: 0;
    }
+    .info{
+      margin: 0;
+      padding: 0;
+      width: 100%;
 }
