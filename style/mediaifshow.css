@@ -139,4 +139,10 @@
     #form form{
       width: 100%;
    }
+    .send-message{
+      width: 100%;
+   }
+   .send-message #contact{
+      padding: 20px;
+   }
 }
