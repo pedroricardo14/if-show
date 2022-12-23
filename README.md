@@ -1,5 +1,9 @@
 # Projeto-Integrador-IFRN
 Esse repositório é para o upload dos 
 arquivos do desenvolvimento do site IFShow
-(Projeto integrador). Está disponível o Front-end da 
-Página Inicial, desenvolvida por mim.
+(Projeto integrador). ATENÇÃO: ESTE PROJETO
+TRATA-SE DE UM TRABALHO ACADÊMICO, E LEVANDO
+EM CONSIDERAÇÃO A OPINIÃO DE TODOS OS INTEGRANTES
+DO DESENVOLVIMENTO DESTE SOFTWARE, É PROIBIDO
+O USO DO MESMO PARA FINS COMERCIAIS OU LUCRATIVOS E SOMENTE OS DESENVOLVEDORES DO IFSHOW TÊM PERMISSÃO
+PARA MODIFICAR ESTE SOFTWARE. 
