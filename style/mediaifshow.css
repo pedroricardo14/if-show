@@ -109,6 +109,9 @@
     }
    .container{
        margin-top: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
    }
    .suporte{
        margin-top: 80px;
