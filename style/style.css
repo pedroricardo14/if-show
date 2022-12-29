@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 header img{
-    height: 70px;
+    height: 100px;
     padding: 0 auto;
     margin-left: 10px;
 }
 header{
     width: 100%;
-    height: 70px;
+    height: 100px;
     padding: 1rem;
     box-sizing: border-box;
     background: #000000;
@@ -24,6 +24,7 @@ header li{
     padding: 10px;
     display: inline-block;
     list-style: none;
+    font-size: 18px;
 }
 header a{
     color: white;
